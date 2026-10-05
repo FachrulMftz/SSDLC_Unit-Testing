@@ -7,10 +7,7 @@ def divide(a, b):
     return a / b
 
 import subprocess
-.venv/
-__pycache__/
-*.pyc
-.pytest_cache/
+
 def run_command(cmd):
     # penggunaan shell=True berbahaya
     # (Command Injection)
